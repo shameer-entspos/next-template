@@ -9,7 +9,8 @@
     "lint": "next lint",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "prepare": "husky"
+    "prepare": "husky",
+    "test": "echo 'No tests defined!' && exit 0"
   },
   "dependencies": {
     "next": "15.0.3",
@@ -28,6 +29,7 @@
     "eslint-config-next": "15.0.3",
     "eslint-plugin-tailwindcss": "^3.17.5",
     "husky": "^9.1.7",
+    "lint-staged": "^15.2.10",
     "postcss": "^8",
     "prettier": "3.4.1",
     "prettier-plugin-tailwindcss": "^0.6.9",
